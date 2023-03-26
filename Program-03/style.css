@@ -1,0 +1,17 @@
+img{
+    width:150px;
+    width:150px;
+}
+table,td{
+    border: 1px solid black
+}
+caption{
+    font-weight: bold;
+    font-size: 40px;
+}
+.center{
+    font-size: 40px;
+}
+td{
+    height: 150px;
+}
