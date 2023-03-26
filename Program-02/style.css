@@ -1,0 +1,19 @@
+table,th,td{
+    border: 1px solid grey;
+    font-weight: bold;
+    width:auto;
+}
+caption{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.crop{
+    width:30px;
+}
+.crop1{
+    width:50px;
+}
+div{
+    margin-top:10%;
+}
