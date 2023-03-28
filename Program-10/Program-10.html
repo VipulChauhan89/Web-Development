@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program-10</title>
+</head>
+<body>
+    <header>
+        <h1>Header</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+  
+    <article>
+        <h2>Article</h2>
+        <p>HTML5 is the latest version of the HyperText Markup Language that is used to create and design web pages. HTML5 has introduced many new tags that have expanded the capabilities of web design. In this article, we will discuss some of these tags and their uses.</p>
+        
+        <p>One of the most important tags introduced in HTML5 is the video tag. This tag is used to embed videos in a web page. With the help of the video tag, you can play videos in various formats, such as MP4, WebM, and Ogg. This tag also includes various attributes, such as controls, autoplay, loop, and preload that provide different functionalities to the video element.</p>
+            
+        <p>Similarly, the audio tag is used to embed audio files in a web page. With the help of the audio tag, you can play audio files in various formats, such as MP3, WAV, and Ogg. This tag also includes various attributes, such as controls, autoplay, loop, and preload that provide different functionalities to the audio element.</p>
+            
+        <p>The header tag is used to define a header section in a web page. This tag is typically used to create a banner or a navigation menu on the top of a web page. Similarly, the footer tag is used to define a footer section in a web page. This tag is typically used to create a copyright notice or to provide contact information at the bottom of a web page.</p>
+            
+        <p>The nav tag is used to define a navigation menu in a web page. This tag is typically used to create a list of links that lead to different sections of a web page. The embed tag is used to embed external content, such as videos, audio files, and maps, in a web page. This tag is typically used to include content from external sources that cannot be embedded with the video and audio tags.</p>
+            
+        <p>The datalist tag is used to create a list of predefined options for an input element. This tag is typically used to create a drop-down menu that provides users with a list of choices to select from. The bdi tag is used to define text that should be displayed in a specific direction, such as from right to left. This tag is typically used to display text in languages that are written from right to left, such as Arabic and Hebrew.</p>
+            
+        <p>Finally, the article tag is used to define a self-contained piece of content, such as a blog post or a news article, in a web page. This tag is typically used to create a section of a web page that contains a complete and independent piece of content.</p>
+            
+        <p>In conclusion, HTML5 has introduced many new tags that have expanded the capabilities of web design. These tags provide web designers with new and innovative ways to create dynamic and interactive web pages. By using these tags, web designers can create web pages that are more engaging and user-friendly, and that provide a better user experience for visitors.</p>
+    </article>
+  
+    
+    <embed src="https://www.youtube.com/embed/t2n0ykn4AKw" width="560" height="315"></embed>
+    
+    <video controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+    </video>
+      
+  
+    <audio controls>
+        <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+        <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+    </audio>
+    
+    <datalist id="colors">
+        <option value="Red">
+        <option value="Green">
+            <option value="Blue">
+        <option value="Yellow">
+        <option value="Orange">
+    </datalist>
+    
+    <form>
+        <label for="color">Choose a color:</label>
+        <input list="colors" id="color" name="color">
+    </form>
+    
+    <bdi>Hello, <span dir="rtl">سلام</span> World!</bdi>
+    
+    <output for="x"></output>
+    <input type="range" id="x" name="x" min="0" max="100" oninput="output.value = x.value;">
+    <footer>
+        <h3>Footer</h3>
+        <p>&copy; 2023 My Hotel. All rights reserved.</p>
+    </footer>
+</body>
+</html>
