@@ -1,0 +1,12 @@
+p{
+    text-decoration: none;
+    display: block;
+    font-size: 50px;
+    text-shadow: 5px 5px 10px black;
+} 
+div{
+    width: 700px;
+    display: block;
+    box-sizing: border-box; 
+    box-shadow: 5px 5px 10px black;
+}
